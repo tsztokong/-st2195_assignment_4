@@ -2,7 +2,7 @@
 r <- 2
 ## Function to compute the volume of a sphere with radius r
 volume <- function(r) { #Removed rho
- return(3/4*pi*r^3) #changed square to cube, add return
+ return(4/3*pi*r^3) #changed square to cube, change 3/4 to 4/3, add return
 }
 ## Function to compute the volumes of the spheres with radius r, r^2 and r^3
 volume_vector <- function(r) {
